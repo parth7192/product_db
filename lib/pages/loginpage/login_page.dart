@@ -12,6 +12,16 @@ class LoginPage extends StatelessWidget {
           "Login Page",
         ),
       ),
+      body: Container(
+        height: double.infinity,
+        width: double.infinity,
+        decoration: const BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage("lib/assests/image/black.jpg"),
+            fit: BoxFit.cover,
+          ),
+        ),
+      ),
     );
   }
 }
